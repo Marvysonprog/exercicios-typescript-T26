@@ -1,4 +1,4 @@
-const somaDobrada = require('../src/implementacao/logica/soma-dobrada');
+const somaDobrada = require('../src/implementacao/2-soma-dobrada');
 
 describe('Soma dobrada', () => {
     test('Caso dois números sejam iguais, retorna o dobro da soma', () => {

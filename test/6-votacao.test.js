@@ -1,4 +1,4 @@
-const apuraVotacao = require('../src/implementacao/logica/votacao');
+const apuraVotacao = require('../src/implementacao/6-votacao');
 
 describe('Apura votacao', () => {
     test('Caso haja mais votos 1, retorna Vencedor 1', () => {

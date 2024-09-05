@@ -1,4 +1,4 @@
-const fizzBuzz = require('../src/implementacao/logica/fizz-buzz');
+const fizzBuzz = require('../src/implementacao/3-fizz-buzz');
 
 describe('FizzBuzz', () => {
     test('Se o número for divisível somente por 3, o método retorna Fizz', () => {

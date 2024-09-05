@@ -1,4 +1,4 @@
-const numerosArmstrong = require('../src/implementacao/logica/numeros-armstrong');
+const numerosArmstrong = require('../src/implementacao/7-numeros-armstrong');
 describe('Numeros de armstrong', () => {
     test('Identifica corretamente números de armstrong', () => {
         expect(numerosArmstrong(3)).toStrictEqual('Este eh um numero de Armstrong!');

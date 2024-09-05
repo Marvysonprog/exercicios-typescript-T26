@@ -1,4 +1,4 @@
-const contadorDeOcorrencia = require('../src/implementacao/logica/contador-de-ocorrencia');
+const contadorDeOcorrencia = require('../src/implementacao/4-contador-de-ocorrencia');
 
 describe('Contador de ocorrencia', () => {
     test('Ao receber o texto "bolo" e a busca "o", deve retornar 2', () => {

@@ -1,4 +1,4 @@
-const criaObjeto = require('../src/implementacao/logica/objeto-data');
+const criaObjeto = require('../src/implementacao/5-objeto-data')
 describe('Objeto data', () => {
     test('Cria objeto de data a partir de uma string', () => {
         expect(criaObjeto('12/08/2020')).toStrictEqual({ dia: '12', mes: '08', ano: '2020' });
